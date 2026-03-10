@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home{
+    height: 100vh;
+    background-image: url("./picture/1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.lead {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.home.lead.p {
+    font-size: 1.25rem;
+    font-weight: 900;
+}
+
+#about{
+    height: 100vh;
+    background-image: url("./picture/Aesthetic-Wallpaper-HD-Pastel-Color.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-img-top{
+    height:200px;
+    object-fit:cover;
+}
+
+.card-img-top{
+    height:200px;
+    object-fit:cover;
+}
+
+.tool-card{
+border-radius:20px;
+transition:0.3s;
+}
+
+.tool-card:hover{
+transform:translateY(-10px);
+box-shadow:0 10px 30px rgba(209, 5, 202, 0.6);
+}
+
